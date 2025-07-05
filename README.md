@@ -1,6 +1,33 @@
 
 ---
 
+# DualView BMI Prediction and Gender Classification
+
+## Overview
+
+This project predicts **Body Mass Index (BMI)** and classifies gender using dual-perspective facial images (front and side views). By leveraging the **FaceNet** model for feature extraction and machine learning models for prediction and classification, this project demonstrates the feasibility of deriving health-related metrics and demographic information from facial features.
+
+### Features
+- **BMI Prediction**: Approached as a regression problem, utilizing various machine learning models.
+- **Gender Classification**: Solved as a binary classification problem.
+- **Health Categorization**: BMI values categorized into health-related groups (underweight, normal, overweight).
+- **Visualization**: Results visualized using scatter plots and confusion matrices.
+- **Real-World Testing**: Evaluated on real-world data, including team members' images.
+
+## Dataset
+
+The dataset consists of:
+- **60,000 facial images** with front and side views per individual.
+- Associated labels:
+  - Height (in meters)
+  - Weight (in kilograms)
+  - Gender (male/female)
+
+BMI is calculated using the formula:
+
+math
+\text{BMI} = \frac{\text{Weight (kg)}}{\text{Height (m)}^2
+
 ## 🧹 Preprocessing Pipeline
 
 - ✅ Face Detection & Alignment using **MTCNN**
