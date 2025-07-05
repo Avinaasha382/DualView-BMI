@@ -82,7 +82,7 @@ math
 
 ---
 
-## 🆚 Existing Methods
+## 🆚 Other Implemented Methods
 
 | Method                        | Profile       | MAE   | RMSE  | R² Score | PCC   |
 |------------------------------|---------------|-------|-------|----------|-------|
