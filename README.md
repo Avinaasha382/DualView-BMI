@@ -55,7 +55,7 @@
 
 ---
 
-## 🆚 Other Implemented Methods
+## 🆚 Comparison with Existing Methods
 
 | Method                        | Profile       | MAE   | RMSE  | R² Score | PCC   |
 |------------------------------|---------------|-------|-------|----------|-------|
